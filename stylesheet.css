@@ -222,7 +222,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 }
 #sponsor .content h3 { color: #fff; margin-bottom: 10px; }
 #sponsor .content .row { margin-bottom: 20px; }
-#sponsor .content .box { width: 170px; height: 100px; background-color: #d8d8d8; display: inline-block; margin-left: 30px; margin-right: 30px; }
+#sponsor .content .box { width: 200px; height: 100px; background-color: #d8d8d8; display: inline-block; margin-left: 30px; margin-right: 30px; }
 #sponsor .content .box img { max-height: 100%; }
 
 #staff { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
