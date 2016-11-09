@@ -17,7 +17,7 @@ p { line-height: 20px; word-break: break-word; }
 }
 
 .btn.gray { color: #555; }
-.text-large { font-size: 1.5em; }
+.text-large { font-size: 1.2em; }
 .titlebox { background-color: #d8d8d8; display: table; margin: 0 auto; padding: 10px 20px; }
 .titlebox h2 { margin-top: 5px; margin-bottom: 5px; text-align: center; }
 .sfont { font-family: 'Fredericka the Great', cursive; }
