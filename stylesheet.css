@@ -194,7 +194,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #personal .content ol > li > ul > li { margin-top: 15px; margin-bottom: 15px; }
 #personal .content ol > li > ul > li li { margin-top: 5px; margin-bottom: 5px; }
 
-#sponsor { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
+#sponsor { position: relative; z-index: 100; width: 700px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #sponsor h2 { color: #fff; text-align: center; display: none; }
 #sponsor .content { max-width: 100%; min-height: 500px; margin-left: auto; margin-right: auto; text-align: center; }
 #sponsor .decoration-top {
