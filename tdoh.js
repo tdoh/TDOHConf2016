@@ -27,14 +27,13 @@ jQuery(document).ready(function(){
 		track: true
 	});
 
-	/*
 	jQuery('#program table').magnificPopup({
 		delegate: 'td.link',
 		mainClass: 'mfp-zoom-in',
 		callbacks: {
 		    beforeOpen: function() {
 		       jQuery('#mfp-popup-program .avator').html( jQuery(this.st.el).find('.avatar').html() );
-		       jQuery('#mfp-popup-program .data-title').text( jQuery(this.st.el).find('.title').text() );
+		       jQuery('#mfp-popup-program .data-title').html( jQuery(this.st.el).find('.title').html() );
 		       jQuery('#mfp-popup-program .data-description').html( jQuery(this.st.el).find('.description').html() );
 		       jQuery('#mfp-popup-program .data-speaker').text( jQuery(this.st.el).find('.speaker').text() );
 		    },

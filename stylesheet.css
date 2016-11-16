@@ -42,8 +42,8 @@ section { margin-top: 50px; margin-bottom: 50px; }
 .white-popup .avator { width: 150px; height: 150px; vertical-align: top; float: left; }
 .white-popup .avator img { width: 100%; border-radius: 50%; }
 .white-popup .data { margin-left: 200px; }
-.white-popup .data .title { font-size: 20px; }
-.white-popup .data [class^=data-] { font-size: 18px; margin-left: 50px; margin-bottom: 30px; }
+.white-popup .data .title { font-size: 18px; }
+.white-popup .data [class^=data-] { font-size: 16px; margin-left: 20px; margin-bottom: 20px; }
 .white-popup .data .data-description { min-height: 60px; max-height: 400px; overflow: scroll; }
 /* ====== Zoom effect ====== */
 .mfp-zoom-in { /* start state */ /* animate in */ /* animate out */ }
@@ -161,8 +161,8 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable .avatar { width: 60px; height: 60px; display: inline-block; margin-right: 10pt; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable .avatar img { width: 100%; height: 100%; }
 #program .timetable .data { height: 60px; display: inline-block; vertical-align: middle; }
-#program .timetable .data .title { line-height: 40px; }
-#program .timetable .data .speaker { line-height: 40px; }
+#program .timetable .data .title { line-height: 25px; max-height: 75px; overflow: hidden; }
+#program .timetable .data .speaker { line-height: 40px; font-size: 16px; }
 
 #transport { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #transport h2 { color: #fff; text-align: center; }
@@ -239,13 +239,14 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable-mobile table { width: 100%; border-collapse: separate; border-spacing: 5px; }
 #program .timetable-mobile th { color: #fff; font-size: 24px; text-align: center; }
 #program .timetable-mobile td { position: relative; background: transparent; width: 100%; text-align: center; font-size: 20px; padding: 10pt 0; font-family: 'Fredericka the Great', cursive; color: #fff; }
+#program .timetable-mobile td.bline { border-bottom: 1px solid #999; }
 #program .timetable-mobile [role="time-col"] { width: 150px; background-color: #d8d8d8; color: #333; }
 #program .timetable-mobile .place { background-color: #fff; border-radius: 50%; color: #333; padding: 5pt; display: table; margin-left: auto; margin-right: auto; }
-#program .timetable-mobile .avatar { width: 80px; height: 80px; display: inline-block; margin-right: 10pt; border-radius: 50%; vertical-align: middle; overflow: hidden; }
+#program .timetable-mobile .avatar { width: 80px; height: 80px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable-mobile .avatar img { width: 100%; height: 100%; }
 #program .timetable-mobile .data { height: 80px; display: inline-block; vertical-align: middle; }
-#program .timetable-mobile .data .title { line-height: 40px; }
-#program .timetable-mobile .data .speaker { line-height: 40px; }
+#program .timetable-mobile .data .title { line-height: 25px; }
+#program .timetable-mobile .data .speaker { line-height: 30px; font-size: 16px; }
 
 footer { position: relative; z-index: 100; border-top: 2px solid #fff; background-color: rgba(255,255,255,0.8); padding: 1em 0; }
 footer section { margin: auto; }
@@ -282,6 +283,9 @@ footer .copyright { position: relative; z-index: 100; color: #000; text-align: c
 	.white-popup .data { margin-left: 0; }
 	.white-popup .avator { float: initial; margin-left: auto; margin-right: auto; }
 	.white-popup .data .data-description { max-height: 200px; }
+	.white-popup .data .data-description::-webkit-scrollbar { width: 1em; height: 0px; }
+	.white-popup .data .data-description::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+	.white-popup .data .data-description::-webkit-scrollbar-thumb { border-radius: 4px; background-color: #999; -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5); }
 
 	#transport { padding-top: 50px; }
 	#transport iframe { height: 300px }
