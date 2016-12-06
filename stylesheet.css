@@ -157,12 +157,12 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable th { color: #fff; font-size: 24px; text-align: center; }
 #program .timetable td { background-color: #d8d8d8; width: 20%; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
 #program .timetable td > table td { padding: 5px 0; }
-#program .timetable [role="time-col"] { width: 20%; background-color: transparent; color: #fff; }
-#program .timetable .avatar { width: 60px; height: 60px; display: inline-block; margin-right: 10pt; border-radius: 50%; vertical-align: middle; overflow: hidden; }
+#program .timetable [role="time-col"] { width: 15%; background-color: transparent; color: #fff; }
+#program .timetable .avatar { width: 60px; height: 60px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable .avatar img { width: 100%; height: 100%; }
 #program .timetable .data { height: 60px; display: inline-block; vertical-align: middle; }
 #program .timetable .data .title { line-height: 25px; max-height: 75px; overflow: hidden; }
-#program .timetable .data .speaker { line-height: 40px; font-size: 16px; }
+#program .timetable .data .speaker { line-height: 20px; font-size: 16px; padding-top: 10px; padding-bottom: 10px; }
 
 #transport { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #transport h2 { color: #fff; text-align: center; }
