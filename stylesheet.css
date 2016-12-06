@@ -155,9 +155,9 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable { margin-top: 10pt; margin-bottom: 10pt; }
 #program .timetable table { width: 100%; border-collapse: separate; border-spacing: 5px; }
 #program .timetable th { color: #fff; font-size: 24px; text-align: center; }
-#program .timetable td { background-color: #d8d8d8; width: 20%; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
+#program .timetable td { background-color: #d8d8d8; width: 25%; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
 #program .timetable td > table td { padding: 5px 0; }
-#program .timetable [role="time-col"] { width: 15%; background-color: transparent; color: #fff; }
+#program .timetable [role="time-col"] { width: 20%; background-color: transparent; color: #fff; }
 #program .timetable .avatar { width: 60px; height: 60px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable .avatar img { width: 100%; height: 100%; }
 #program .timetable .data { height: 60px; display: inline-block; vertical-align: middle; }
