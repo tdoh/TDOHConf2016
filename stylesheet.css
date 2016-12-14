@@ -39,7 +39,7 @@ section { margin-top: 50px; margin-bottom: 50px; }
 	margin: 0 auto;
 	border: 4px solid #808080;
 }
-.white-popup .avator { width: 150px; height: 150px; vertical-align: top; float: left; }
+.white-popup .avator { width: 150px; vertical-align: top; float: left; }
 .white-popup .avator img { width: 100%; border-radius: 50%; }
 .white-popup .data { margin-left: 200px; }
 .white-popup .data .title { font-size: 18px; }
@@ -158,6 +158,7 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #program .timetable td { background-color: #d8d8d8; width: 25%; text-align: center; font-size: 18px; padding: 2em 0; font-family: 'Fredericka the Great', cursive; }
 #program .timetable td > table td { padding: 5px 0; }
 #program .timetable [role="time-col"] { width: 20%; background-color: transparent; color: #fff; }
+#program .timetable .place { background-color: #fff; border-radius: 50%; color: #333; padding: 5pt; display: table; margin-left: auto; margin-right: auto; }
 #program .timetable .avatar { width: 60px; height: 60px; display: block; margin-left: auto; margin-right: auto; border-radius: 50%; vertical-align: middle; overflow: hidden; }
 #program .timetable .avatar img { width: 100%; height: 100%; }
 #program .timetable .data { height: 60px; display: inline-block; vertical-align: middle; }
