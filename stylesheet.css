@@ -168,6 +168,9 @@ nav[role="bugar-button"].active>li[role="bugar-btn-bread"] {
 #transport { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
 #transport h2 { color: #fff; text-align: center; }
 #transport .map { margin-left: 15pt; margin-right: 15pt; }
+#transport .map ul { margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px; background: #fff; }
+#transport .map ul a { color: #337ab7; text-decoration: none; }
+#transport .map ul a:hover { color: #23527c; text-decoration: underline; }
 #transport iframe { max-width: 100%; }
 
 #call_for_paper { position: relative; z-index: 100; width: 800px; max-width: 100%; padding-top: 90px; margin-left: auto; margin-right: auto; }
